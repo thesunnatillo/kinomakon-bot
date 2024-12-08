@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "start": "nodemon run.js",
+    "create:tables": "node src/database/create_tables/run_create_tables.js"
+  },
   "dependencies": {
     "dotenv": "^16.4.7",
     "grammy": "^1.33.0",
